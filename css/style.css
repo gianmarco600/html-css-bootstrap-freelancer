@@ -55,7 +55,7 @@ section.main_bg{
 
 .nav_spec{
     background-color: #2c3e50;
-    height: 100px;
+    height: 80px;
     font-size: 1.4rem;
 }
 
@@ -67,7 +67,7 @@ section.main_bg{
 
 .jumbo_bg{
     background-color: #1abc9c;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .img_box{
@@ -120,4 +120,12 @@ section.main_bg{
 
 #download>i{
     margin-right: 8px;
+}
+
+/* contact me */
+
+#contact input, .message{
+    border: none;
+    background-color: #1abc9cbe;
+    border-bottom: 3px solid #2c3e50;
 }
