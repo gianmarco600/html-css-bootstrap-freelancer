@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html{
     font-size: 14px;
      /* overflow-x: hidden;  problema di overflow sul jumbotron/nav/about */
@@ -8,7 +14,7 @@ h1{
     font-size: 3.5rem; 
 }
 
-h2 {
+h2{
     color: white;
 }
 
@@ -84,7 +90,7 @@ section.main_bg{
 }
 
 .img_box>img{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: block;
     margin-top: 50px;
@@ -115,6 +121,7 @@ section.main_bg{
 
 .card_port{
     position: relative;
+    display: block;
     width: 100%;
 }
 
@@ -200,6 +207,11 @@ footer{
     font-size: 2.2rem;
     line-height: 4rem;
     vertical-align: middle;
+}
+
+.social_icon:hover{
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
 }
 
 .foot{
