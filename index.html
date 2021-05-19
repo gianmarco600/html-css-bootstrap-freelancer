@@ -21,16 +21,16 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end gx-5 flex-grow-0" id="navbarNav">
-                <ul class="navbar-nav gx-5">
+            <div class="collapse navbar-collapse justify-content-end flex-grow-0" id="navbarNav">
+                <ul class="navbar-nav gx-5 ">
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase fw-bold" href="#">portfolio</a>
+                    <a class="nav-link text-uppercase fw-bold" href="#portfolio">portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav_item nav-link text-uppercase fw-bold" href="#">about</a>
+                    <a class="nav_item nav-link text-uppercase fw-bold" href="#about">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav_item nav-link text-uppercase fw-bold" href="#">contact</a>
+                    <a class="nav_item nav-link text-uppercase fw-bold" href="#contact">contact</a>
                 </li>
                 </ul>
             </div>
@@ -40,8 +40,8 @@
     <!-- jumbotron -->
     
     <div class="container-fluid jumbo_bg">
-        <div class="row justify-content-center">
-            <div class="col-12 col-sm-4 col-lg-6">
+        <div class="row justify-content-center g0">
+            <div class="col-12 col-sm-4">
                 <div class="img_box">
                     <img src="img/avatar.svg" alt="">
                 </div>
@@ -58,43 +58,61 @@
 
     <!-- section 1: portfolio -->
 
-    <section class="container-lg section_base_margin">
-        <h2 class="text-center fw-bolder text-uppercase mb-3 black sec_title" >portfolio</h2>
+    <section id="portfolio" class="container section_base_margin">
+        <h2 class="text-center fw-bolder text-uppercase mb-3 black sec_title g0" >portfolio</h2>
         <div class="divide text-nowrap mb-5">
             <div class="line black_bg"></div>
             <i class="bi bi-star-fill black"></i>
             <div class="line black_bg"></div>
         </div>
 
-        <div class="row justify-content-center g-5">
+        <div class="row justify-content-center gy-4">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card_port" >
                     <img src="img/cabin.png"  alt="...">
-                  </div>
+                    <div class="on_hover_img">
+                        <i class="fas fa-plus white"></i>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card_port" >
                     <img src="img/cake.png"  alt="...">
+                    <div class="on_hover_img">
+                        <i class="fas fa-plus white"></i>
+                    </div>
                   </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card_port" >
                     <img src="img/circus.png"  alt="...">
+                    <div class="on_hover_img">
+                        <i class="fas fa-plus white"></i>
+                    </div>
                   </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card_port" >
                     <img src="img/game.png"  alt="...">
+                    <div class="on_hover_img">
+                        <i class="fas fa-plus white"></i>
+                    </div>
                   </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card_port" >
                     <img src="img/safe.png"  alt="...">
+                    <div class="on_hover_img">
+                        <i class="fas fa-plus white"></i>
+                    </div>
                   </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card_port" >
                     <img src="img/submarine.png"  alt="...">
+                    <div class="on_hover_img">
+                        <i class="fas fa-plus white"></i>
+                    </div>
                   </div>
             </div>
         </div>
@@ -102,7 +120,7 @@
 
     <!-- section 2: about -->
 
-    <section class="container-fluid section_base_margin main_bg">
+    <section id="about" class="container-fluid section_base_margin main_bg">
         <div class=" text-center container">
             <h2 class="text-center fw-bolder text-uppercase mb-3 white sec_title">about</h2>
             <div class="divide text-nowrap mb-5">
@@ -110,7 +128,7 @@
                 <i class="bi bi-star-fill white"></i>
                 <div class="line white_bg"></div>
             </div>
-            <div class="row justify-content-center gx-4 gy-5 mb-5">
+            <div class="row justify-content-center gy-5 mb-5">
                 <div class="col-10 col-md-5">
                     <p class="fw-bolder white text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, consequuntur perspiciatis. Illo nesciunt totam odio enim quia minima nostrum est officiis doloremque voluptates, molestias, eveniet asperiores minus. Ducimus, hic ad.</p>
                 </div>
@@ -124,7 +142,7 @@
 
     <!-- section 3:contact me -->
 
-    <section class="container-lg section_base_margin" >
+    <section id="contact" class="container-lg section_base_margin" >
         <h2 class="text-center fw-bolder text-uppercase mb-3 black sec_title" >contact me</h2>
         <div class="divide text-nowrap mb-5">
             <div class="line black_bg"></div>
@@ -149,30 +167,30 @@
     <footer class="container-fluid">
         <div class=" section_base_margin">
             <div class="row justify-content-center mb-3">
-                <div class="col-10 col-md-3 my-5">
-                    <h3 class="text-center fw-bold text-uppercase mb-3 white" >location</h3>
+                <div class="col-10 col-md-3 my-4">
+                    <h3 class="text-center fw-bold text-uppercase mb-2 white" >location</h3>
                     <p class="white text-center">2215 John Daniel Drive Clarck, MO 54243</p>
                 </div>
-                <div class="col-10 col-md-3 mby-5">
-                    <h3 class="text-center fw-bold text-uppercase mb-3 white" >around the web</h3>
+                <div class="col-10 col-md-3 my-4">
+                    <h3 class="text-center fw-bold text-uppercase mb-2 white" >around the web</h3>
                     <div class="social text-center">
-                        <span class="social_icon white m-2"><i class="fab fa-facebook-f"></i></span>
-                        <span class="social_icon white m-2"><i class="fab fa-google-plus-g"></i></span>
-                        <span class="social_icon white m-2"><i class="fab fa-twitter"></i></span>
-                        <span class="social_icon white m-2"><i class="bi bi-linkedin mb-1"></i></span>
+                        <a href="#" class="social_icon white m-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social_icon white m-2"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social_icon white m-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social_icon white m-2"><i class="fab fa-linkedin-in"></i></i></a>
                     </div>
                 </div>
-                <div class="col-10 col-md-3 my-5">
-                    <h3 class="text-center fw-bold text-uppercase white" >about freelancer</h3>
+                <div class="col-10 col-md-3 my-4">
+                    <h3 class="text-center fw-bold text-uppercase white mb-2" >about freelancer</h3>
                     <p class="white text-center">Freelance is a free to use, open source Bootstrap theme created by <span class="green">Start Bootstrap</span></p>
                 </div>
             </div>
         </div>
-        
+        <div class="foot container-fluid grey_bg_foot text-center">
+            <span class="fw-bold white">Copyright &copy; Your Website 2019</span>
+        </div>
     </footer>
-    <div class="foot container-fluid grey_bg_foot text-center">
-        <span class="fw-bold white">Copyright &copy; Your Website 2019</span>
-    </div>
+    
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
