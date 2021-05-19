@@ -90,7 +90,7 @@ section.main_bg{
 }
 
 .img_box>img{
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     display: block;
     margin-top: 50px;
@@ -191,8 +191,8 @@ section.main_bg{
 
 footer{
     background-color: #3a546d;
-    padding-top: 50px;
-    margin-bottom: 0;
+    padding: 50px 0 0 0;
+    width: 100%;
 }
 
 .social_icon{
